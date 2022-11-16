@@ -27,10 +27,10 @@ app.get('/', (req, res) =>
 );
 
 
-/*app.get('/test', (req, res) =>
+app.get('/test', (req, res) =>
     res.send(`Le Test marche bien`)
 );
-*/
+
 
 app.listen(PORT, () =>
     console.log(`your server is running on port ${PORT}`)
